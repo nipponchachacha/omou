@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<title>代替品.com</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">閉じる</a>
+  <a href="https://nipponchachacha.github.io/omou/daitaihin.html" onclick="w3_close()" class="w3-bar-item w3-button">家電</a>
+  <a href="https://nipponchachacha.github.io/omou/daitaihin-norimono.html" onclick="w3_close()" class="w3-bar-item w3-button">乗り物/交通</a>
+  <a href="https://nipponchachacha.github.io/omou/daitaihin-kinyuu.html" onclick="w3_close()" class="w3-bar-item w3-button">金融</a>
+  <a href="https://nipponchachacha.github.io/omou/daitaihin-syokuhin.html" onclick="w3_close()" class="w3-bar-item w3-button">食品</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-center w3-padding-16">国産で代替</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <h3>ブラウザ(ウェブサイトを見るアプリ)</h3>
+      <p>Sleipnir Mobileが無料で配信されている。</p>
+    </div>
+    <div class="w3-quarter">
+      <h3>地図アプリ</h3>
+      <p>my route: かなり使いやすい、地図のデータは米Google社による提供</p>
+      <p>TCスマホナビ:少々使いずらいように最初は感じるが、慣れるとトイレ検索や駐車場の予約など手放せなくなる。</p>
+      <p>乗り換えナビタイム: 電車に特化したアプリ、電車使いならこのアプリに勝るものなし。</p>
+    </div>
+    <div class="w3-quarter">
+      <h3>三菱(REAL)</h3>
+      <p>リアルというブランドで展開中。資本や開発はほとんど日本。</p>
+    </div>
+    <div class="w3-quarter">
+      <h3>フナイ(FUNAI)</h3>
+      <p> 海外ではSANYO,PHILLIPS,Maganavox,Kodakのブランドも使用</p>
+      <p>SANYOブランドはわからないが、PHILLIPS,Maganavox,Kodakは海外企業にブランド使用料が入るので、FUNAIを推奨</p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <h3>注意:カンデラ</h3>
+      <p>小さめの会社。製造が東芝のため、注意。</p>
+    </div>
+    <div class="w3-quarter">
+      <h3>注意:東芝</h3>
+      <p>東芝自体が３割強をアメリカに握られている。テレビ製造事業は中国企業が所有。</p>
+    </div>
+    
+
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>日の丸テレビ</h3><br>
+    <div class="w3-padding-32">
+      <p>特許は日本が持ってるなんて言いますが、気休めですかね。とはいえ、まだ４社あるので選べるね。</p>
+    </div>
+  </div>
+  <hr>
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>注意事項</h3>
+      <p>個人調べです。このサイトによって発生したいかなる損害について責任を負いません。</p>
+    </div>
+
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
+
