@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<title>代替品.com</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">閉じる</a>
+  <a href="https://nipponchachacha.github.io/omou/daitaihin.html" onclick="w3_close()" class="w3-bar-item w3-button">家電</a>
+  <a href="https://nipponchachacha.github.io/omou/daitaihin-norimono.html" onclick="w3_close()" class="w3-bar-item w3-button">乗り物/交通</a>
+  <a href="https://nipponchachacha.github.io/omou/daitaihin-kinyuu.html" onclick="w3_close()" class="w3-bar-item w3-button">金融</a>
+  <a href="https://nipponchachacha.github.io/omou/daitaihin-syokuhin.html" onclick="w3_close()" class="w3-bar-item w3-button">食品</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-center w3-padding-16">国産で代替</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <h3>VAIO</h3>
+      <p>安曇野フィニッシュだってさ、資本や開発はほとんど日本。最終工程も日本だってさ。デザイン、品質ともにおススメ。</p>
+    </div>
+    <div class="w3-quarter">
+      <h3>エプソン</h3>
+      <p>ノートパソコンの製造は長野県下伊那郡喬木村（ただしネットブックは中国工場からのOEM供給で、日本国内で検品後に出荷)。資本も日本。デザインは良くはない。</p>
+    </div>
+       <div class="w3-quarter">
+      <h3>パナソニック(Let's Note)</h3>
+      <p> 資本や開発は日本だが、デザイン性がない。</p>
+    </div>
+    <div class="w3-quarter">
+      <h3>ロジテック</h3>
+      <p>法人向けの取り扱いしかない。外国企業の"ロジクール"ブランドがややこしい。資本、組み立ては日本。</p>
+    </div>
+
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <h3>ちょっと注意:マウスコンピュータ</h3>
+      <p>ケースや電源ユニットなどほぼ全てのパーツを輸入品に依存しているところは注意。資本、組み立ては日本。</p>
+    </div>
+    <div class="w3-quarter">
+      <h3>注意:富士通</h3>
+      <p>富士通自体の資本は日本ですが、分離されたパソコン事業の51%はレノボ(アメリカ系香港企業)資本。</p>
+    </div>
+    <div class="w3-quarter">
+      <h3>注意:ダイナブック</h3>
+      <p>シャープと東芝の合弁企業だが、シャープは全て、東芝は３割強を外資に握られている。</p>
+    </div>
+    <div class="w3-quarter">
+      <h3>注意:NEC</h3>
+      <p>完全外資(100％レノボ)</p>
+    </div>
+
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>日の丸パソコン</h3><br>
+    <div class="w3-padding-32">
+      <p>なんか、日本のメーカーはオフィス向けで生き残っているって感じですよね。デザインが気に食わないけど応援したいなって企業は、会社のオフィス用のパソコンに発注しちゃおう。
+      個人で買うならVAIOがオヌヌメ。</p>
+    </div>
+  </div>
+  <hr>
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>注意事項</h3>
+      <p>個人調べです。このサイトによって発生したいかなる損害について責任を負いません。</p>
+    </div>
+
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
+
